@@ -101,7 +101,7 @@
                                 <configuration>
                                     <url>https://manbearpig.dk/manager/text</url>  
                                     <server>TomcatServer</server>
-                                    <path>/webcalculator</path>
+                                    <path>/plainJPA-Demo</path>
                                     <username>admin</username>
                                     <password>admin123</password>
                                     <update>true</update>

@@ -6,11 +6,14 @@ cache:
     - $HOME/.m2
 
 script:
-  - mvn verify -Ptest
+  - mvn verify
 
 after_success:
   - mvn tomcat7:deploy -Pdeployremote
   
 
 notifications:
+  email: 
+    - cph-cm268@cphbusiness.dk
+ 
  on_failure: always
